@@ -4,7 +4,10 @@
 \alias{convert_file}
 \title{To convert file to other format}
 \usage{
-convert_file(api_key, input_format, output_format, input, file, dest_file)
+convert_file(api_key, input_format, output_format, input, file, dest_file,
+  input_s3_accesskeyid = "", input_s3_secretaccesskey = "",
+  input_s3_bucket = "", input_ftp_host = "", input_ftp_port = "",
+  input_ftp_user = "", input_ftp_password = "")
 }
 \arguments{
 \item{api_key}{CloudConvert API key}
@@ -18,6 +21,20 @@ convert_file(api_key, input_format, output_format, input, file, dest_file)
 \item{file}{Input file destination (including the name of file with extension)}
 
 \item{dest_file}{Name where the downloaded file is saved (including the name of file with extension)}
+
+\item{input_s3_accesskeyid}{The Amazon S3 accessKeyId (Required when input is s3)}
+
+\item{input_s3_secretaccesskey}{The Amazon S3 secretAccessKey (Required when input is s3)}
+
+\item{input_s3_bucket}{The Amazon S3 bucket where to download the input file or upload the output file (Required when input is s3)}
+
+\item{input_ftp_host}{The FTP server host (Required when input is ftp)}
+
+\item{input_ftp_port}{The port the FTP server is bind to (Required when input is ftp)}
+
+\item{input_ftp_user}{FTP username (Required when input is ftp)}
+
+\item{input_ftp_password}{FTP password (Required when input is ftp)}
 }
 \description{
 To convert file to other format
