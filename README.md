@@ -1,4 +1,6 @@
 # RCloudConvert
+[![Travis-CI Build Status](https://travis-ci.org/mukul13/RCloudConvert.svg?branch=master)](https://travis-ci.org/mukul13/RCloudConvert)
+
 R package to convert file format using Cloud Convert API 
 
 ##Installation
