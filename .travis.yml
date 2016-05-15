@@ -1,0 +1,10 @@
+
+language: r
+sudo: required
+warnings_are_errors: false
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change
+
