@@ -40,6 +40,7 @@ convert_file(api_key, input_format, output_format, input, file, dest_file,
 To convert file to other format
 }
 \examples{
+\dontrun{
 convert_file(api_key=api_key,input_format = "jpg",output_format = "pdf",input="upload",file="input file location",dest_file = "destination file location")
 }
-
+}
