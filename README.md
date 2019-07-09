@@ -3,11 +3,12 @@
 
 R package to convert file format using Cloud Convert API 
 
-##Installation
+## Installation
 
 To install RCloudConvert package
 ```R
- library(devtools)
+#install.packages('devtools')
+library(devtools)
 install_github("mukul13/RCloudConvert")
 ```
 To get Cloud Convert API key, you have to sign up [here](https://cloudconvert.com/)
